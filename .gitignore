@@ -1,0 +1,11 @@
+.idea
+*.iml
+.gradle
+build
+**/build
+**/.classpath
+**/.project
+**/.settings
+**/.springBeans
+**/bin
+.DS_Store

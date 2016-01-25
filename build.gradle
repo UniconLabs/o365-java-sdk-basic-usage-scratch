@@ -31,10 +31,13 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter')
-	compile('com.microsoft.azure:adal4j:1.1.2')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
-    optional "org.springframework.boot:spring-boot-configuration-processor"
+	compile 'org.springframework.boot:spring-boot-starter'
+	compile 'com.microsoft.azure:adal4j:1.1.2'
+    compile 'com.microsoft.services.orc:orc-java:1.0.0'
+	compile 'com.microsoft.services:graph-services-java:0.2.5'
+
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
+    optional 'org.springframework.boot:spring-boot-configuration-processor'
 }
 
 //For boot's configuration annotation processor to generate metadata for IDE intellisense for properties and yaml files
